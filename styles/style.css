@@ -1,8 +1,53 @@
 body {
   color: white;
   background-color: lightblue;
- }
+}
+
+header {
+  text-align: center;
+}
+
+p{
+  font-family: "Poly", serif;
+  text-align: center;
+}
+
+li, ul {
+  font-family: "Poly", serif;
+  list-style-position: inside;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+a {
+  color: #00b4d8;
+  font-family: "Roboto", serif;
+}
+
+a:hover {
+  color: #0077b6
+}
+
+h2 {
+  text-align: center;
+}
 
 footer {
   text-align: center;
 }
+
+img {
+  margin: auto;
+  display: block;
+}
+
+.validation-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+figcaption {
+  text-align: center;
+  color:#0077b6
+} 
