@@ -1,8 +1,14 @@
 body {
     background-color: black;
     color: orange;
+    text-align: center;
 }
 
-h1, h2 , p {
+h1, h2 , p, a, a:visited {
     color: orange;
+    text-decoration: none;
+}
+
+figcaption {
+    font-style: italic;
 }
