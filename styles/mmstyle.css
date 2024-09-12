@@ -1,14 +1,22 @@
 body {
     background-color: black;
-    color: orange;
     text-align: center;
 }
 
-h1, h2 , p, a, a:visited {
-    color: orange;
+h1, h2 , a, a:visited {
+    color: #ff6900;
     text-decoration: none;
 }
 
-figcaption {
+p {
+    color: #ffffff
+}
+
+figcaption, a, a:visited {
     font-style: italic;
+    color: #929292;
+}
+
+footer {
+    color: #ff6900;
 }
